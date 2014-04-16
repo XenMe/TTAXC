@@ -123,7 +123,7 @@ function TestGrid(i,j)
 end
 
 function TestEnd()
-    if (0x2c4025==getColor(175,965) and 0x2c4025==getColor(176,965)) or (0xc94448==getColor(357,855) and 0xc94c4d==getColor(366,863)) then
+    if (0x2c4025==getColor(175,965) and 0x2c4025==getColor(176,965)) or (0x344524==getColor(175,965) and 0x344524==getColor(176,965)) then
         return true
     else
         return false
