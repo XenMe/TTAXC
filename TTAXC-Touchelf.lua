@@ -199,7 +199,7 @@ function TestAgain()
     while true do
         mSleep(500)
 		--test again
-        if 0xc94448==getColor(357,855) and 0xc94c4d==getColor(366,863) then
+        if (0xc94448==getColor(357,855) and 0xc94c4d==getColor(366,863)) or (0xfff7f9==getColor(350,848) and 0xfff0f2==getColor(400,858)) then
             mSleep(500)
             click(361,861)
             break
