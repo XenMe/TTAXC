@@ -145,11 +145,7 @@ function TestAgain()
     while true do
         mSleep(500)
 		--test again
-<<<<<<< HEAD
         if (0xc94448==getColor(357,855) or 0xc94c4d==getColor(366,863)) or (0xfff7f9==getColor(350,848) and 0xfff0f2==getColor(400,858)) then
-=======
-        if (0xc94448==getColor(357,855) or 0xc94c4d==getColor(366,863)) or r (0xfff7f9==getColor(350,848) and 0xfff0f2==getColor(400,858)) then
->>>>>>> 12683b859f892bc362cb8698cf7b5f138fdbe306
             mSleep(500)
             click(361,861)
             return
